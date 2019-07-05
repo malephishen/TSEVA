@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         */
         
         //colorPicker собственной персоны
-        let neatColorPicker = ChromaColorPicker(frame: CGRect(x: 50, y: 125, width: 320, height: 320))
+        let neatColorPicker = ChromaColorPicker(frame: CGRect(x: 30, y: 115, width: 320, height: 320))
         neatColorPicker.delegate = self as? ChromaColorPickerDelegate //ChromaColorPickerDelegate
         neatColorPicker.padding = -15
         neatColorPicker.stroke = 20
